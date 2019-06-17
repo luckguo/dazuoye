@@ -1,0 +1,289 @@
+/*
+* @Author: dell
+* @Date:   2019-06-12 19:08:52
+* @Last Modified by:   dell
+* @Last Modified time: 2019-06-15 21:13:44
+*/
+*{
+	padding: 0px;
+	margin: 0px;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+ol,ul,li{
+	list-style-type: none;
+}
+select{
+	border: 0px;
+	font-size:12px;
+}
+.head{
+	width: 1200px;
+	margin: 0 auto;
+	height: 60px;
+	line-height:13px;
+}
+.head>div{
+	padding-left: 520px;
+	line-height:13px;
+	float: left;
+	font-size:12px;
+}
+.head li
+{
+	display:inline-block;
+
+}
+.head p:first-child{
+	margin-left: 0px;
+	font-size: 10px;
+}
+.head img{
+	float:right;
+	margin: 10px 0px 0px 10px;
+}
+.head1{
+	width: 1200px;
+	height: 86px;
+	margin: 0 auto;
+}
+.head1 input{
+	width: 540px;
+	height: 43px;
+	margin-left: 176px;
+	float:left;
+	border-left: 1px;
+	border-top: 1px;
+	border-bottom: 1px;
+	border-right: 0px;
+	border-style:solid;
+	border-color:black;
+	color:#e4e4e4 ;
+	margin-top:15px;
+	text-align:center;
+}
+.logo{
+	float:left;
+}
+.cart{
+	float:right;
+	margin-top:30px;
+}
+.search{
+	float:left;
+	margin-top:15px ;
+	padding:3px;
+	width: 36px;
+	border-right: 1px;
+	border-left: 0px;
+	border-top: 1px;
+	border-bottom: 1px;
+	border-color: #393942;
+	border-style:solid;
+}
+.nav{
+	width: 1200px;
+	height: 40px;
+	padding: 0px 0px 0px 8px;
+	margin: 0 auto;
+	
+}
+.nav li a:first-child
+{
+     margin-left: 0px;
+     padding-left:0px ;
+}
+.nav li{
+	display:inline-block;
+	margin:9px 12px 0px 12px;
+	font-size:14px;
+	text-align:center;
+	padding: 0px 22px 10px 22px;
+
+}
+
+.nav li:hover{
+	border-bottom:3px;
+	border-right: 0px;
+	border-left: 0px;
+	border-top:0px;
+	border-color:#3aa747;
+	border-style:solid;
+	
+}
+.nav a:hover{
+	color: #3aa747;
+}
+.fg
+{
+	height: 2px;
+	background-color:#3aa747;
+}
+.big{
+	background:white url(所需小图/banner.png) no-repeat center;
+	height: 670px;
+}
+.dao ul
+{
+	position:fixed;
+	top: 190px;
+	right: 0px;
+}
+.dao li{
+	padding: 40px 20px 40px 20px;
+	background-color:#000;
+	border-color:#575c5a;
+	border-width:0px 0px 2px 0px;
+	border-style:solid;
+}
+.body1{
+	width: 1200px;
+	height: 60px;
+	margin: 0 auto;
+}
+.body1 li{
+	display:inline-block;
+}
+.jieshao{
+	width: 1200px;
+	height: 195px;
+	margin: 0 auto;
+}
+.a{
+	width: 1200px;
+	height: 135px;
+	margin: 0 auto;
+	border-width:0px 1px 0px 1px;
+	border-style:solid;
+	border-color:#cccccc;
+}
+.jieshao table{
+	width: 1004px;
+}
+.jieshao td{
+	width: 100px;
+	height: 45px;
+	text-align:center;
+	color:#737373;
+}
+.jieshao td:hover{
+	color: #b5d9b8;
+}
+.jieshao td:first-child{
+	color: black;
+	background-color:#e5e5e5;
+}
+.body{
+	width: 1200px;
+	height: 620px;
+	margin: 0 auto;
+}
+.body li>img{
+	padding:24px 0px 0px 42px;
+}
+.body li{
+	display:inline-block;
+	margin:0px 13px 26px 13px;
+	float:left;
+	height: 292px;
+	width: 274px;
+	border: 1px solid black;
+	overflow:hidden;
+	position:relative;
+}
+.body div{
+	height: 51px;
+	width: 274px;
+	background-color: #4c4c4c;
+	opacity:0.9; 
+    filter:alpha(opacity=90);
+	color:white;
+	text-align:center;
+	margin-top: 241px;
+	font-size:14px;
+	padding-top: 12px;
+	position:absolute;
+	bottom: 0px;
+}
+/* .body li:hover{
+	background-color: #4c4c4c;
+	opacity:0.9; 
+    filter:alpha(opacity=90); 
+    background-image:none;
+    text-align: center;
+    line-height:123px;
+    height:292px;
+    width: 274px;
+}  */
+.body div>p{
+	display:inline-block;
+	text-align:center;
+}
+.body div:hover .p1{
+	padding-top:121px;
+}
+.body div:hover{
+	height: 292px;
+	width: 274px;
+	background-color: #4c4c4c;
+	padding-top:121px;
+	opacity:0.9; 
+    filter:alpha(opacity=90);
+    font-size:20px;
+	
+}
+.body hr{
+	display:none;
+}
+.body div:hover hr{
+	display:block;
+}
+.bottom{
+	width: 1200px;
+	margin: 0 auto ;
+	overflow:hidden;
+
+}
+.bottom li{
+	padding:28px 0px 0px 27px;
+	float:left;
+	width:270px;
+	
+}
+.bottom p{
+	color: #6d6d6d;
+	display:inline-block;
+	margin-left:20px;
+	font-size:20px;
+	border-width:0px 1px 0px 0px;
+	border-color:#e0e0e0;
+	border-style:solid;
+
+}
+.bottom span{
+	font-size:12px;
+	color:#6d6d6d;
+}
+.bottom img{
+	padding-top: 2px;
+}
+.bottomb{
+	width: 1200px;
+	height: 100px;
+	margin: 0 auto;
+}
+.bottomb ul{
+	margin:0px  0px 0px 216px;
+}
+.bottomb li{
+	display:inline-block;
+	float:left;
+	margin-top: 24px;
+	color: white;
+}
+.bottomb p{
+	color: white;
+	font-size:12px;
+}
